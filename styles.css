@@ -1,0 +1,238 @@
+::before{
+    margin: 0;
+    padding: 0;
+}
+
+main {   
+    background-color: #8395ba;
+    font-family:'Libre Baskerville', serif;
+    }
+
+
+i {
+    color: black;
+    height: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+/* HEADER */
+#APlogo {
+text-align: center;
+width: 150px;
+align-content: flex-start;
+}
+
+.redes{
+    width: 50px;
+}
+
+#social{
+    float: right;
+    align-items: center;
+    margin: 0px;   
+}
+
+
+/* ESTILOS GENERALES PARA PANTALLAS GRANDES*/
+
+@media (min-width:576px) {
+
+    /* ESTILOS DE HEADER - PERFIL*/
+
+    #foto-perfil {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        border-radius: 50%;
+        margin-top: -126px;
+        margin-left: 20px;
+        z-index: 1;
+        box-shadow: 3px 3px 3px gray;       
+    }
+
+    #btn-edit-foto{
+        width: 100px;
+        height: 100px;
+        color: black;
+        display: inline-block;
+        margin-top:68px;
+        margin-left:192px;  
+    }
+
+    #nombre{  
+        text-align: center;     
+        font-weight: bold;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    #titulo{
+        text-align: center;  
+        font-weight: lighter;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #info-perfil{
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /* ESTILOS DE ACERCA DE MI*/
+
+    h2 {
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    /* ESTILOS DE EXPERIENCIA LABORAL*/
+
+    .title {
+        margin: 0px;
+        display: inline-flex;
+        justify-items: center;
+           
+    }
+    .btn-edit-add {
+        margin: 0px;
+        display: inline-flex;
+        justify-items: center;
+        
+    }
+
+    .data-container {
+        display: flex;
+        margin: 10px 20px;
+        padding: 20px;
+
+    }
+
+    .img-experiencia {   
+        width: 180px;
+        height: 180px;
+        align-items: center;
+        z-index: 1;
+        box-sizing: content-box;
+        border-radius: 50%;
+       
+    }
+
+    .list-info{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 10px;
+        padding: 0px;
+       
+    }
+
+    .data-control{
+      
+        display: inline;
+        color: black;   
+        
+       
+    }
+    
+    .btn-edit-experiencia {
+        align-items: stretch;
+        justify-content: space-between;
+        color: black;
+    }
+    
+}
+
+/* ESTILOS GENERALES PARA PANTALLAS CHICAS*/
+
+
+@media (max-width:575px){
+
+    /* ESTILOS DE HEADER - PERFIL*/
+    
+    #foto-perfil{
+        width: 183px;
+        position: absolute;
+        border-radius: 50%;
+        margin: -92px 162px;
+        box-shadow: 3px 3px 3px gray;        
+    }
+
+    #btn-edit-foto{
+        width: 100px;
+        height: 100px;
+        color: black;
+        margin: 53px 296px;
+        position: absolute;
+        display: inline-block           
+    }
+
+    .title-perfil{
+        margin-top: 112px;
+        margin-bottom: 23px;
+        margin-left: 159px;
+        
+    }
+
+    #info-perfil{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    /* ESTILOS DE EXPERIENCIA LABORAL*/
+
+    .title {
+        margin: 0px;
+        display: inline-flex;
+        justify-items: center;
+           
+    }
+    .btn-edit-add {
+        margin: 0px;
+        display: inline-flex;
+        justify-items: center;
+        
+    }
+
+    .data-container {
+        
+
+    }
+
+    .img-experiencia {   
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        z-index: 1;
+        box-sizing: content-box;
+        border-radius: 50%;
+        margin: 30px 75px;
+       
+    }
+
+    .list-info{
+        
+       
+    }
+
+    .data-control{
+        display: inline;
+        color: black;       
+    }
+    
+    .btn-edit-experiencia {
+        align-items: stretch;
+        justify-content: center;
+        justify-content: space-between;
+        color: black;
+    }
+
+
+}
+
